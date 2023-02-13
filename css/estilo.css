@@ -1,14 +1,22 @@
 
-.h1, h5{
+h1, h5{
     text-align: center;
     font-family: arial;
 }
 
-.mark{
+mark {
     background-color: green;
     color: yellow;
 }
 
-.figure {
+figure {
     text-align: center;
+}
+
+body {
+    background-image: url("/img/fundo.jpg"); /* caminho da img a ser usada */
+    background-color: rgb(255, 255, 255); /* usa caso a img não esteja disponível */
+    background-position: center; /* centraliza a img */
+    background-repeat: no-repeat; /* não permite que a img seja repetida na página */
+    background-size: cover; /* redimensiona a img para cobrir toda a página */
 }
