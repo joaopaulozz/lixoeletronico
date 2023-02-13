@@ -13,7 +13,7 @@ figure {
 }
 
 body {
-    background-image: url("/img/fundo.png"); /* caminho da img a ser usada */
+    background-image: url("../img/fundo.png"); /* caminho da img a ser usada */
     background-color: rgb(255, 255, 255); /* usa caso a img não esteja disponível */
     background-position: center; /* centraliza a img */
     background-repeat: no-repeat; /* não permite que a img seja repetida na página */
