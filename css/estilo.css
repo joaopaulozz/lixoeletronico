@@ -18,6 +18,7 @@ body {
     background-position: center; /* centraliza a img */
     background-repeat: no-repeat; /* não permite que a img seja repetida na página */
     background-size: cover; /* redimensiona a img para cobrir toda a página */
+    text-align: center;
 }
 
 a {
